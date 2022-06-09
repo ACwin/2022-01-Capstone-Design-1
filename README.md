@@ -111,7 +111,7 @@ Open your browser and enter Return: http://localhost:8080 You can see the front-
 
 
 - YANG - [@ACwin](https://github.com/ACwin) - [email@uniceyang0116@gmail.com](mailto:emailuniceyang0116@gmail.com)
-- SUN - [@sjy072812138](https://github.com/sjy072812138)- [email@929420972@qq.com][(mailto:929420972@qq.com)
+- SUN - [@sjy072812138](https://github.com/sjy072812138)- [email@929420972@qq.com](mailto:929420972@qq.com)
 
 Project Link: [https://github.com/ACwin/2022-01-Capstone-Design-1]
 
