@@ -25,7 +25,6 @@ SpringBoot + Vue + MySQL + MyBatis ==>  HIGOmmal
 
 
 
-- **Account Management**
 
 ### 1. User Modules:
 <img width="553" alt="image" src="https://user-images.githubusercontent.com/42907149/172845395-c7f0a57f-5d80-41e1-a657-621943ae37d9.png">
