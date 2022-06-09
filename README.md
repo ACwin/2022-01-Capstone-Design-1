@@ -1,25 +1,11 @@
 # 2022-01-Capstone-Design-1
 
 
-Table of Contents
------------------
-- [About The Project](#About-The-Project)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Roadmap](#Roadmap)
-- [Technical scheme](#Technical-scheme)
-- [Project Structure](#project-structure)
-------------------------
-
-
 ## About The Project
-![image](![image](https://user-images.githubusercontent.com/42907149/172842717-54b00e2a-3a5d-4ada-a954-67b20259734d.png))
+<img width="389" alt="image" src="https://user-images.githubusercontent.com/42907149/172844838-2d8f8756-c060-4bd1-bfb5-f8dfdaba6199.png">
+<img width="387" alt="image" src="https://user-images.githubusercontent.com/42907149/172844929-ac5d55ed-af19-48e6-a880-38eb399d8778.png">
+<img width="379" alt="image" src="https://user-images.githubusercontent.com/42907149/172845136-22d1c474-ea10-4858-8c47-7b2bb5948bf2.png">
 
-
-![image](![image](https://user-images.githubusercontent.com/42907149/172842717-54b00e2a-3a5d-4ada-a954-67b20259734d.png))
-
-![image](<img width="437" alt="image" src="https://user-images.githubusercontent.com/42907149/172842807-cf109b4a-608f-4420-9aae-48974e07e8fc.png">)
 
 HIGOmmal:
 
@@ -39,17 +25,34 @@ SpringBoot + Vue + MySQL + MyBatis ==>  HIGOmmal
 
 
 - **Account Management**
-- 관리자 관리
-- 문장 관리
-- 분류관리
-- 평론 관리
-- 회신 관리
- - Gravatar
- - Profile Details
- - Change Password
- - Forgot Password
- - Reset Password
- - Delete Account
+
+### 1. User Modules:
+<img width="553" alt="image" src="https://user-images.githubusercontent.com/42907149/172845395-c7f0a57f-5d80-41e1-a657-621943ae37d9.png">
+
+### 2. Commodity Classification Module:：
+
+- 2.1 The settings for categorical data
+- 2.2 Affiliation and association of goods with categories
+
+### 3. Commodity module:
+- 3.1 Image Upload
+- 3.2 Customize the static resource mapping directory 
+- 3.3 Updates and additions to products 
+- 3.4 Batch loading and unloading 
+- 3.5 Product List: Search function
+
+### 4.Summary Commodity Module:
+
+<img width="664" alt="image" src="https://user-images.githubusercontent.com/42907149/172758196-bffc6253-05ff-48e1-a09a-e82f5c80e3df.png">
+
+## 5. Order module development
+
+- 5.1 Generate orders - the user places an order
+- 5.2 Generate orders - the user places an order
+- 5.3 Generate orders - the user places an order
+- 5.4 pay
+<img width="707" alt="image" src="https://user-images.githubusercontent.com/42907149/172758819-917f7f1b-f66f-44bc-ad78-493de73636b2.png">
+
 - **API Examples**: [API.md](https://github.com/ACwin/Node.js-Koa2-Server/blob/master/API.md)
 
 --------------------------
