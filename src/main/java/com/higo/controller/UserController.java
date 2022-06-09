@@ -24,6 +24,7 @@ import javax.servlet.http.HttpSession;
  * 描述：     用户控制器
  */
 @Controller
+@CrossOrigin
 public class UserController {
     @Autowired
     UserService userService;
@@ -110,6 +111,7 @@ public class UserController {
     @ResponseBody
     public ApiRestResponse adminLogin(@RequestParam("userName") String userName,
                                       @RequestParam("password") String password, HttpSession session)
+
             throws ImoocMallException {
         if (StringUtils.isEmpty(userName)) {
             return ApiRestResponse.error(ImoocMallExceptionEnum.NEED_USER_NAME);

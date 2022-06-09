@@ -9,9 +9,7 @@ import com.higo.service.ProductService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * 描述：     前台商品Controller
@@ -30,8 +28,8 @@ public class ProductController {
     }
 
     @ApiOperation("상품상세정보")
-    @GetMapping("product/list")
-    public ApiRestResponse list(ProductListReq productListReq) {
+    @PostMapping("product/list")
+    public ApiRestResponse list(@RequestBody ProductListReq productListReq) {
         PageInfo list = productService.list(productListReq);
         return ApiRestResponse.success(list);
     }
