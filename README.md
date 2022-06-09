@@ -1,6 +1,7 @@
 # 2022-01-Capstone-Design-1
 
 
+
 ## About The Project
 <img width="389" alt="image" src="https://user-images.githubusercontent.com/42907149/172844838-2d8f8756-c060-4bd1-bfb5-f8dfdaba6199.png">
 <img width="387" alt="image" src="https://user-images.githubusercontent.com/42907149/172844929-ac5d55ed-af19-48e6-a880-38eb399d8778.png">
@@ -13,7 +14,7 @@ SpringBoot + Vue + MySQL + MyBatis ==>  HIGOmmal
 
 ---------------------------
 
-### Features 
+## Features 
 
 [![jdkversions](https://img.shields.io/badge/Java-1.7%2B-yellow.svg)]()
 [![vueversions](https://img.shields.io/badge/vue.js-2.2.x-brightgreen.svg)]()
@@ -45,7 +46,7 @@ SpringBoot + Vue + MySQL + MyBatis ==>  HIGOmmal
 
 <img width="664" alt="image" src="https://user-images.githubusercontent.com/42907149/172758196-bffc6253-05ff-48e1-a09a-e82f5c80e3df.png">
 
-## 5. Order module development
+### 5. Order module development
 
 - 5.1 Generate orders - the user places an order
 - 5.2 Generate orders - the user places an order
