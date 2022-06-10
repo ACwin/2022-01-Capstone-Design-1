@@ -23,9 +23,6 @@ SpringBoot + Vue + MySQL + MyBatis ==>  HIGOmmal
 ![mybatis](https://img.shields.io/badge/mybatis-2.2-brightgreen.svg)
 
 
-
-
-
 ### 1. User Modules:
 <img width="553" alt="image" src="https://user-images.githubusercontent.com/42907149/172845395-c7f0a57f-5d80-41e1-a657-621943ae37d9.png">
 
@@ -55,22 +52,8 @@ SpringBoot + Vue + MySQL + MyBatis ==>  HIGOmmal
 
 - **API Examples**: [API.md](https://github.com/ACwin/Node.js-Koa2-Server/blob/master/API.md)
 
---------------------------
-
-
-### Prerequisites
-
-
--  [MySql](https://dev.mysql.com/downloads/workbench/)
-
-- Command Line Tools
- - [<img src="https://camo.githubusercontent.com/299cd53046608ab7c7095893199ffd0759c149851fce53b6d7c13f26279f637b/687474703a2f2f64656c7567652d746f7272656e742e6f72672f696d616765732f6170706c652d6c6f676f2e676966" alt="img" style="zoom: 50%;" />](https://camo.githubusercontent.com/299cd53046608ab7c7095893199ffd0759c149851fce53b6d7c13f26279f637b/687474703a2f2f64656c7567652d746f7272656e742e6f72672f696d616765732f6170706c652d6c6f676f2e676966) **Mac OS X:** [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) (or **OS X 10.9+**: `xcode-select --install`)
- - <img src="http://dc942d419843af05523b-ff74ae13537a01be6cfec5927837dcfe.r14.cf1.rackcdn.com/wp-content/uploads/windows-8-50x50.jpg" height="17">&nbsp;**Windows:** [Visual Studio](https://www.visualstudio.com/products/visual-studio-community-vs) OR [Visual Studio Code](https://code.visualstudio.com) + [Windows Subsystem for Linux - Ubuntu](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
- - <img src="https://lh5.googleusercontent.com/-2YS1ceHWyys/AAAAAAAAAAI/AAAAAAAAAAc/0LCb_tsTvmU/s46-c-k/photo.jpg" height="17">&nbsp;**Ubuntu** / <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Logo_Linux_Mint.png" height="17">&nbsp;**Linux Mint:** `sudo apt-get install build-essential`
-- [<img src="https://camo.githubusercontent.com/e47ca7b9ffe7e785d52464e61260f9e1941c8853b5053d76f1cda878978d2daa/68747470733a2f2f656e2e6f70656e737573652e6f72672f696d616765732f622f62652f4c6f676f2d6765656b6f5f686561642e706e67" alt="img" style="zoom: 50%;" />](https://camo.githubusercontent.com/e47ca7b9ffe7e785d52464e61260f9e1941c8853b5053d76f1cda878978d2daa/68747470733a2f2f656e2e6f70656e737573652e6f72672f696d616765732f622f62652f4c6f676f2d6765656b6f5f686561642e706e67) **OpenSUSE:** `sudo zypper install --type pattern devel_basis`
-
 -------------------------------------
-### Technology selection
+## Technology selection
 
 #### Back-end technology
 
@@ -112,7 +95,56 @@ SpringBoot + Vue + MySQL + MyBatis ==>  HIGOmmal
 | Js-cookie  | Cookie management tool        | https://github.com/js-cookie/js-cookie |
 | nprogress  | Progress bar control            | https://github.com/rstacruz/nprogress  |
 
-## Getting Started
+------------
+
+## Architecture diagram
+
+##### System architecture diagram
+<img width="508" alt="image" src="https://user-images.githubusercontent.com/42907149/173032241-c7b667e9-1925-48a2-a994-d49b5ab79fab.png">
+
+--------------------------------------
+
+
+## Environment setup
+
+### Development tools
+
+| Tool         | Instruction                 | Official website                                            |
+| ------------- | ------------------- | ----------------------------------------------- |
+| IDEA          | Develop the IDE             | https://www.jetbrains.com/idea/download         |
+| RedisDesktop  | redis client connection tool | https://github.com/qishibo/AnotherRedisDesktopManager  |
+| SwitchHosts   | Local host management        | https://oldj.github.io/SwitchHosts/             |
+| X-shell       | Linux remote connection tool   | http://www.netsarang.com/download/software.html |
+| Navicat       | Mysql client connection tool      | http://www.formysql.com/xiazai.html             |
+| PowerDesigner | Database design tools      | http://powerdesigner.de/                        |
+| Axure         | Prototyping tools        | https://www.axure.com/                          |
+| MindMaster    | Mind Map Design Tools    | http://www.edrawsoft.cn/mindmaster              |
+| ScreenToGif   | Gif recording tool        | https://www.screentogif.com/                    |
+| ProcessOn     | Flowcharting tools      | https://www.processon.com/                      |
+| PicPick       | Image processing tools        | https://picpick.app/zh/                         |
+| Snipaste      | Screenshot tool        | https://www.snipaste.com/                       |
+| Postman       | API interface debugging tool      | https://www.postman.com/                        |
+| Typora        | Markdown Editor      | https://typora.io/                              |
+
+### Development environment
+
+| Tool          | version number | Download                                                         |
+| ------------- | ------ | ------------------------------------------------------------ |
+| JDK           | 1.8    | https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html |
+| Mysql         | 5.7    | https://www.mysql.com/                                       |
+| Redis         | 5.0    | https://redis.io/download                                    |
+| Mysql         | 5.7    | https://www.mongodb.com/download-center                      |
+| RabbitMQ      | 3.7.14 | http://www.rabbitmq.com/download.html                        |
+| Nginx         | 1.10   | http://nginx.org/en/download.html                            |
+| Elasticsearch | 7.6.2  | https://www.elastic.co/downloads/elasticsearch               |
+| Logstash      | 7.6.2  | https://www.elastic.co/cn/downloads/logstash                 |
+| Kibana        | 7.6.2  | https://www.elastic.co/cn/downloads/kibana                   |
+
+---------------------------
+
+
+
+## Setup steps
 
 ### front
 
