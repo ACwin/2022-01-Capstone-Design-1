@@ -70,6 +70,47 @@ SpringBoot + Vue + MySQL + MyBatis ==>  HIGOmmal
 - [<img src="https://camo.githubusercontent.com/e47ca7b9ffe7e785d52464e61260f9e1941c8853b5053d76f1cda878978d2daa/68747470733a2f2f656e2e6f70656e737573652e6f72672f696d616765732f622f62652f4c6f676f2d6765656b6f5f686561642e706e67" alt="img" style="zoom: 50%;" />](https://camo.githubusercontent.com/e47ca7b9ffe7e785d52464e61260f9e1941c8853b5053d76f1cda878978d2daa/68747470733a2f2f656e2e6f70656e737573652e6f72672f696d616765732f622f62652f4c6f676f2d6765656b6f5f686561642e706e67) **OpenSUSE:** `sudo zypper install --type pattern devel_basis`
 
 -------------------------------------
+### Technology selection
+
+#### Back-end technology
+
+| Technology                | Instruction                | Official website                                           |
+| -------------------- | ------------------- | ---------------------------------------------- |
+| SpringBoot           | Container + MVC framework        | https://spring.io/projects/spring-boot         |
+| SpringSecurity       | Authentication and authorization framework      | https://spring.io/projects/spring-security     |
+| MyBatis              |ORM framework             | http://www.mybatis.org/mybatis-3/zh/index.html |
+| MyBatisGenerator     | Data-layer code generation      | http://www.mybatis.org/generator/index.html    |
+| Elasticsearch        |search engine            | https://github.com/elastic/elasticsearch       |
+| RabbitMQ             | Message Queuing            | https://www.rabbitmq.com/                      |
+| Redis                | Distributed cache          | https://redis.io/                              |
+| MySql                | database         | https://www.mongodb.com                        |
+| LogStash             | Log collection tool        | https://github.com/elastic/logstash            |
+| Kibana               | Log visualization tool  | https://github.com/elastic/kibana              |
+| Nginx                | Static resource server      | https://www.nginx.com/                         |
+| Docker               | Apply the container engine        | https://www.docker.com                         |
+| Jenkins              | Automated deployment tools      | https://github.com/jenkinsci/jenkins           |
+| Druid                | Database connection pooling        | https://github.com/alibaba/druid               |
+| OSS                  | Object storage            | https://github.com/aliyun/aliyun-oss-java-sdk  |
+| MinIO                | Object storage            | https://github.com/minio/minio                 |
+| JWT                  | JWT login support         | https://github.com/jwtk/jjwt                   |
+| Lombok               | Simplified object encapsulation tool    | https://github.com/rzwitserloot/lombok         |
+| Hutool               | Java Tools Class Library        | https://github.com/looly/hutool                |
+| PageHelper           | MyBatis Physical paging plug-in | http://git.oschina.net/free/Mybatis_PageHelper |
+| Swagger-UI           | Document generation tools        | https://github.com/swagger-api/swagger-ui      |
+| Hibernator-Validator | Validation framework            | http://hibernate.org/validator                 |
+
+#### Front-end technology
+
+| Technology       | Instruction                  | Official website                                   |
+| ---------- | --------------------- | -------------------------------------- |
+| Vue        | Front-end framework              | https://vuejs.org/                     |
+| Vue-router | Routing framework              | https://router.vuejs.org/              |
+| Vuex       | Global state management framework      | https://vuex.vuejs.org/                |
+| Element    | Front-end UI framework            | https://element.eleme.io               |
+| Axios      | Front-end HTTP framework          | https://github.com/axios/axios         |
+| v-charts   | Charting framework based on Echarts | https://v-charts.js.org/               |
+| Js-cookie  | Cookie management tool        | https://github.com/js-cookie/js-cookie |
+| nprogress  | Progress bar control            | https://github.com/rstacruz/nprogress  |
 
 ## Getting Started
 
